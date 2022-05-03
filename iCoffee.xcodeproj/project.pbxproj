@@ -3,23 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BA7F8E34B087FF5F1ACA3B1 /* Pods_iCoffee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729ED9B522AE411913699BDD /* Pods_iCoffee.framework */; };
 		7160AC6D2820792E007CF7B2 /* iCoffeeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7160AC6C2820792E007CF7B2 /* iCoffeeApp.swift */; };
-		7160AC6F2820792E007CF7B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7160AC6E2820792E007CF7B2 /* ContentView.swift */; };
+		7160AC6F2820792E007CF7B2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7160AC6E2820792E007CF7B2 /* HomeView.swift */; };
 		7160AC7128207930007CF7B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7160AC7028207930007CF7B2 /* Assets.xcassets */; };
 		7160AC7428207930007CF7B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7160AC7328207930007CF7B2 /* Preview Assets.xcassets */; };
+		7160AC7D28207A38007CF7B2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7160AC7C28207A38007CF7B2 /* GoogleService-Info.plist */; };
+		71A07A97282080A600B90019 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A07A96282080A600B90019 /* AppDelegate.swift */; };
+		71A07A9B2820846100B90019 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A07A9A2820846100B90019 /* Drink.swift */; };
+		71A07A9E28215C9B00B90019 /* FirebaseReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A07A9D28215C9B00B90019 /* FirebaseReference.swift */; };
+		71A07AA228215DA100B90019 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A07AA128215DA100B90019 /* Constants.swift */; };
+		71A07AA92821685900B90019 /* DrinkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A07AA82821685900B90019 /* DrinkRow.swift */; };
+		71A07AAC28216C6A00B90019 /* DrinkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A07AAB28216C6A00B90019 /* DrinkItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E715EBED53F27EDF0D0E9B1 /* Pods-iCoffee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCoffee.debug.xcconfig"; path = "Target Support Files/Pods-iCoffee/Pods-iCoffee.debug.xcconfig"; sourceTree = "<group>"; };
+		5727ED6A2AB7C1A775582E9C /* Pods-iCoffee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCoffee.release.xcconfig"; path = "Target Support Files/Pods-iCoffee/Pods-iCoffee.release.xcconfig"; sourceTree = "<group>"; };
 		7160AC692820792E007CF7B2 /* iCoffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCoffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7160AC6C2820792E007CF7B2 /* iCoffeeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCoffeeApp.swift; sourceTree = "<group>"; };
-		7160AC6E2820792E007CF7B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7160AC6E2820792E007CF7B2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		7160AC7028207930007CF7B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7160AC7328207930007CF7B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7160AC7528207930007CF7B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7160AC7C28207A38007CF7B2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		71A07A96282080A600B90019 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71A07A9A2820846100B90019 /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		71A07A9D28215C9B00B90019 /* FirebaseReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseReference.swift; sourceTree = "<group>"; };
+		71A07AA128215DA100B90019 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		71A07AA82821685900B90019 /* DrinkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkRow.swift; sourceTree = "<group>"; };
+		71A07AAB28216C6A00B90019 /* DrinkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkItem.swift; sourceTree = "<group>"; };
+		729ED9B522AE411913699BDD /* Pods_iCoffee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iCoffee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +45,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BA7F8E34B087FF5F1ACA3B1 /* Pods_iCoffee.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B1543B1D7E3161E2E921A20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				729ED9B522AE411913699BDD /* Pods_iCoffee.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7160AC602820792A007CF7B2 = {
 			isa = PBXGroup;
 			children = (
 				7160AC6B2820792E007CF7B2 /* iCoffee */,
 				7160AC6A2820792E007CF7B2 /* Products */,
+				7CE73FE809D5CABA78A99DFE /* Pods */,
+				1B1543B1D7E3161E2E921A20 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,10 +82,16 @@
 			isa = PBXGroup;
 			children = (
 				7160AC6C2820792E007CF7B2 /* iCoffeeApp.swift */,
-				7160AC6E2820792E007CF7B2 /* ContentView.swift */,
+				7160AC6E2820792E007CF7B2 /* HomeView.swift */,
+				71A07AA62821633800B90019 /* Model */,
+				71A07AA52821632900B90019 /* Helpers */,
 				7160AC7028207930007CF7B2 /* Assets.xcassets */,
 				7160AC7528207930007CF7B2 /* Info.plist */,
+				7160AC7C28207A38007CF7B2 /* GoogleService-Info.plist */,
+				71A07A96282080A600B90019 /* AppDelegate.swift */,
 				7160AC7228207930007CF7B2 /* Preview Content */,
+				71A07AA82821685900B90019 /* DrinkRow.swift */,
+				71A07AAB28216C6A00B90019 /* DrinkItem.swift */,
 			);
 			path = iCoffee;
 			sourceTree = "<group>";
@@ -69,6 +104,32 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		71A07AA52821632900B90019 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				71A07A9D28215C9B00B90019 /* FirebaseReference.swift */,
+				71A07AA128215DA100B90019 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		71A07AA62821633800B90019 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				71A07A9A2820846100B90019 /* Drink.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7CE73FE809D5CABA78A99DFE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E715EBED53F27EDF0D0E9B1 /* Pods-iCoffee.debug.xcconfig */,
+				5727ED6A2AB7C1A775582E9C /* Pods-iCoffee.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,9 +137,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7160AC7828207930007CF7B2 /* Build configuration list for PBXNativeTarget "iCoffee" */;
 			buildPhases = (
+				23583270E0B8A75CFA6DA8EF /* [CP] Check Pods Manifest.lock */,
 				7160AC652820792A007CF7B2 /* Sources */,
 				7160AC662820792A007CF7B2 /* Frameworks */,
 				7160AC672820792A007CF7B2 /* Resources */,
+				BFF14D5645A85C520D3F5970 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,18 +191,67 @@
 			files = (
 				7160AC7428207930007CF7B2 /* Preview Assets.xcassets in Resources */,
 				7160AC7128207930007CF7B2 /* Assets.xcassets in Resources */,
+				7160AC7D28207A38007CF7B2 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23583270E0B8A75CFA6DA8EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iCoffee-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFF14D5645A85C520D3F5970 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iCoffee/Pods-iCoffee-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iCoffee/Pods-iCoffee-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iCoffee/Pods-iCoffee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7160AC652820792A007CF7B2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7160AC6F2820792E007CF7B2 /* ContentView.swift in Sources */,
+				71A07A9E28215C9B00B90019 /* FirebaseReference.swift in Sources */,
+				71A07AAC28216C6A00B90019 /* DrinkItem.swift in Sources */,
+				71A07A97282080A600B90019 /* AppDelegate.swift in Sources */,
+				71A07AA92821685900B90019 /* DrinkRow.swift in Sources */,
+				7160AC6F2820792E007CF7B2 /* HomeView.swift in Sources */,
+				71A07A9B2820846100B90019 /* Drink.swift in Sources */,
 				7160AC6D2820792E007CF7B2 /* iCoffeeApp.swift in Sources */,
+				71A07AA228215DA100B90019 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +376,7 @@
 		};
 		7160AC7928207930007CF7B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E715EBED53F27EDF0D0E9B1 /* Pods-iCoffee.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -285,6 +398,7 @@
 		};
 		7160AC7A28207930007CF7B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5727ED6A2AB7C1A775582E9C /* Pods-iCoffee.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

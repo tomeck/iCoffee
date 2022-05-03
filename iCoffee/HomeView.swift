@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  HomeView.swift
 //  iCoffee
 //
 //  Created by Eck, Tom on 5/2/22.
@@ -7,15 +7,38 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct HomeView: View {
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        NavigationView {
+            Text("Hi")
+                
+                .navigationBarTitle(Text("iCoffee"))
+                .navigationBarItems(leading:
+                                        
+                                        Button(action: {
+                                            //code
+                                            print("Log out")
+                                        }, label: {
+                                            Text("Log Out")
+                                        })
+                                    
+                                    , trailing:
+                                        Button(action: {
+                                            //code
+                                            print("basket")
+                                        }, label: {
+                                            Image("basket")
+                                        })
+
+                                    )
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        HomeView()
     }
 }
